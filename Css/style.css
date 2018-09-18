@@ -2,7 +2,7 @@
     background:#fcdb00;
 }
 .container{
-    margin: 50px 90px 20px 90px;
+    margin: auto;
 }
 .main-nav{    
     float: right;
@@ -37,7 +37,7 @@
 #slider{
     text-align: center;
     padding-top:20px;
-    padding-left: 180px;
+    padding-bottom: 40px;
 }
 #col2{
     padding-top: 40px;
@@ -53,14 +53,13 @@
 }
 #row3{
     text-align: center;
-    padding-left: 180px;
+    padding-top: 50px;
 }
 #rowrow{
-    margin: 110px;
-    display: grid;
+    margin:50px 0px 0px 0px;
 }
 #rowrow .row{
-    margin: 20px 0px  20px 0px;
+    margin: 30px 0px  30px 0px;
 }
 #fluid2{
     background: black;
@@ -72,7 +71,7 @@
 }
 #rowrowrow{
     text-align: center;
-    padding-left: 180px;
+    padding-top: 40px;
 }
 #email{
     color: gray;
@@ -95,7 +94,6 @@
 .icon{
     text-align: center;
     margin-top: 40px;
-    padding-left: 180px;
 }
 .icon img{
     margin-left: auto;
