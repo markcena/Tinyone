@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link href="Css/style.css"  rel="stylesheet" type="text/css">
 </head>
@@ -8,36 +9,38 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                     <img src="Logo.png"id="logo">
             </div>  
-            <div class="col-xs-8">
+            <div class="col-xs-6 col-sm-6 col-sm-offset-3 col-md-6">
                     <ul class="main-nav">
                         <li class="active"><a href="">Features</a></li> 
                         <li><a href="">Support</a></li>
                         <li><a href="">Blog</a></li>
-                        <li><a href="">Menu</a></li>
+                        <li><a href="" id="menu">Menu</a></li>
                      </ul>
             </div>
             
         </div>
         <div class="row" id="row2">
-            <div class="col-xs-6" id="col1">
+            <div class="col-xs-12 col-sm-12 col-md-6 " id="col1">
                     <span>
                         <p class="p1">Inspire your inspiration</p><br>
                         <p>Simple to use for your app, products<br> showcase and inspiration</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p>Praesent vitae eros eget tellus tristique bibendum.</p>
-                        <p> Donec rutrum sed sem quis venenatis. Proin viverra<br> risus a eros volutpat tempor. In quis arcu et eros porta<br> lobortis sit</p>
-                        <img src="store-buttons.png">
+                        <p> Donec rutrum sed sem quis venenatis. Proin viverra<br>risus a eros volutpat tempor. In quis arcu et eros porta<br>lobortis sit</p>
+                       
                     </span>
+                    <img src="store-buttons.png" class="os">
             </div>
-            <div class="col-xs-6" id="col2">
-                    <img src="tablet.png">
+            
+            <div class="col-xs-12 col-sm-12  col-md-3 col-md-offset-2" id="col2">
+                    <img src="tablet.png" id="oppo">
             </div>
         </div>
         <div class="row">
-                <div class="col-xs-12" id="slider">
+                <div class="col-xs-12 col-sm-12 col-md-12" id="slider">
                 <img src="Slider Bullets.png">
             </div>
     </div>
@@ -49,20 +52,19 @@
                 <p class="p6">Tinyone Features</p><br><br>
                 <p7>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique<br>
                 bibendum. Donec rutrum sed sem quis venenatis.</p7><br><br>
-                <img src="blackbar.png">
+                <img src="blackbar.png" id="blackbar">
             </div>
             <div class="row" id="rowrow">
-                <div class="row">
-                    <div class="col-xs-4"><img src="featured1.png"></div>
-                    <div class="col-xs-4"><img src="featured2.png"></div>
-                    <div class="col-xs-4"><img src="featured3.png"></div>
+                <div class="row" id="rowfeatured">
+                    <div class="col-xs-12 col-sm-12 col-md-4"><img src="featured1.png"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-4"><img src="featured2.png"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-4"><img src="featured3.png"></div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-4"><img src="featured4.png"></div>
-                    <div class="col-xs-4"><img src="featured5.png"></div>
-                    <div class="col-xs-4"><img src="featured6.png"></div>
+                <div class="row" id="rowfeatured">
+                    <div class="col-xs-12 col-sm-12 col-md-4"><img src="featured4.png"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-4"><img src="featured5.png"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-4"><img src="featured6.png"></div>
                 </div>
-                <div class="row"></div>
             </div>
         </div>
     </div>
@@ -83,12 +85,12 @@
                     <img src="twitter.png">
                     <img src="google.png">
                     <img src="pinterest.png"><br><br>
-                    <img src="whitebar.png">
+                    <img src="whitebar.png" id="whitebar">
                 </div>
                 
         </div>
         <div class="row" id="lastrow">
-                <div class="col-xs-3">
+                <div class="col-xs-12 col-sm-12 col-md-3">
                         <p>HALOVIETNAM LTD<br>
                             66, Dang Van ngu, Dong Da<br>
                             Hanoi, Vietnam<br>
@@ -96,14 +98,14 @@
                             +844 35149182
                         </p>
                     </div>
-                    <div class="col-xs-2">
+                    <div class="col-xs-12 col-sm-12 col-md-2">
                         <p>
                             Example<br>
                             Shop<br>
                             License
                         </p>
                     </div>
-                    <div class="col-xs-2">
+                    <div class="col-xs-12 col-sm-12 col-md-2">
                         <p>
                             Contact<br>
                             About<br>
@@ -111,14 +113,14 @@
                             Term
                         </p>
                     </div>
-                    <div class="col-xs-2">
+                    <div class="col-xs-12 col-sm-12 col-md-2">
                         <p>
                             Download<br>
                             Support<br>
                             Documents<br>
                         </p>
                     </div>
-                    <div class="col-xs-2">
+                    <div class="col-xs-12 col-sm-12 col-md-2">
                     <p>
                             Media<br>
                             Blog<br>
