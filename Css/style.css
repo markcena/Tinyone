@@ -4,24 +4,16 @@
 .container{
     margin: auto;
 }
-.main-nav{    
-    float: right;
-    list-style: none;
-    margin-top: 15px;
-    padding-right:-10px;
+#navi{
+    background-color:#fcdb00;
+    border-bottom: #fcdb00;
 }
-.main-nav li{    
-    display: inline-block;
-    padding-top: 12px;
+#navmenu li a{
+    font-size: 24px;
+    font-family: 'Trebuchet MS';
+    color: black;
 }
-.main-nav li a{
-    color:Black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family:"PTSans";
-    font-weight: bold;
-    font-size: 25px;
-}
+
 #logo{
     padding-top:20px;
    
@@ -101,38 +93,32 @@
     color: #ffffff;
     margin: 50px 0px 30px 0px;
 }
-#menu{
-    display: none;
-}
 
 @media only screen and (max-width: 320px){
 
 .container{
     margin:auto;
 }
-
 #logo{
     padding-top:20px;
    
 }
-.main-nav{    
-    float: right;
-    list-style: none;
-    margin-top: 15px;
-    padding-right:-10px;
+#navhead{
+    border: #fcdb00;
 }
-.main-nav li{    
-    display: inline-block;
-    padding-top: 12px;
+#navig{
+    border:#fcdb00;
 }
-.main-nav li a{
-    color:Black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family:"PTSans";
-    font-weight: bold;
-    font-size: 25px;
-    display:none;
+#navmenu{
+    border: #fcdb00;
+}
+#navmenu li a{
+    color: black;
+}
+#buttonton{
+    position: relative;
+    top: 10px;
+    border:#fcdb00;
 }
 .p1{
     text-align: center;
@@ -155,7 +141,7 @@
 #slider{
     text-align: center;
     padding-top:20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 #oppo{
     position: relative;
@@ -185,9 +171,10 @@
     margin:20px 0px 0px 0px;
     
 }
-#rowrow .row{
-    margin: 30px 0px  20px 0px;
+#ff{
+    margin-bottom: 15px;
 }
+
 #fluid2{
     background: black;
 }
@@ -230,21 +217,13 @@
 }
 #lastrow{
     color: #ffffff;
-    margin: 20px 0px 30px 0px;
+    margin: 20px 0px 30px 15px;
 }
 #blackbar{
     width:290px;
 }
 #whitebar{
     width:270px;
-}
-#menu{
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    color:black;
-    position: relative;
-    bottom: 25px;
 }}
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -256,25 +235,7 @@
     padding-top:20px;
    
 }
-.main-nav{    
-    float: right;
-    list-style: none;
-    margin-top: 15px;
-    padding-right:-10px;
-}
-.main-nav li{    
-    display: inline-block;
-    padding-top: 12px;
-}
-.main-nav li a{
-    color:Black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family:"PTSans";
-    font-weight: bold;
-    font-size: 25px;
-    display:none;
-}
+
 .p1{
     
     font-weight: bold;
@@ -285,7 +246,7 @@
     padding-top: 20px;
     font-size: 23px;
     position: relative;
-    top:490px;
+    top:540px;
     padding-left: 130px;
   
 }
@@ -304,7 +265,7 @@
     
     display:block;
     position: relative;
-    bottom:550px;
+    bottom:500px;
     right: 10px;
     width: 50%;
     height: 50%;
@@ -328,9 +289,12 @@
     
 }
 #rowrow{
-    margin:20px 0px 0px 0px;
+    margin:15px 0px 0px 0px;
     position: relative;
     right: 23px;
+}
+#ff{
+    margin-bottom: 15px;
 }
 #rowrow .row{
     margin: 30px 0px  20px 230px;
@@ -381,10 +345,10 @@
     margin: 20px 0px 30px 0px;
 }
 #blackbar{
-    width:290px;
+    width:700px;
 }
 #whitebar{
-    width:270px;
+    width:700px;
 }
 #menu{
     display: block;
@@ -393,5 +357,6 @@
     color:black;
     position: relative;
     bottom: 80px;
+    left: 120px;
 }
 }
